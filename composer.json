@@ -1,0 +1,18 @@
+{
+    "name": "moxuandi/yii2-tagsinput",
+    "description": "bootstrap-tagsinput",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","bootstrap","tagsinput"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "moxuandi",
+            "email": "1104984259@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "moxuandi\\tagsinput\\": ""
+        }
+    }
+}
