@@ -3,6 +3,8 @@ Yii2 标签云插件
 
 [Bootstrap Tags Input](http://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/)
 
+参考借鉴: [wbraganca/yii2-tagsinput](https://github.com/wbraganca/yii2-tagsinput)
+
 安装:
 ------------
 使用 [composer](http://getcomposer.org/download/) 下载:
