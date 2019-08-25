@@ -17,10 +17,10 @@ class TagsinputAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/moxuandi/yii2-tagsinput/assets';
     public $css = [
-        'bootstrap-tagsinput.css',
+        'dist/bootstrap-tagsinput.css',
     ];
     public $js = [
-        'bootstrap-tagsinput.min.js',
+        'dist/bootstrap-tagsinput.min.js',
     ];
     public $depends = [
         'yii\web\JqueryAsset'
