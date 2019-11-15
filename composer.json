@@ -10,9 +10,12 @@
             "email": "1104984259@qq.com"
         }
     ],
+    "require": {
+        "yiisoft/yii2": "~2.0.24"
+    },
     "autoload": {
         "psr-4": {
-            "moxuandi\\tagsinput\\": ""
+            "moxuandi\\tagsInput\\": ""
         }
     }
 }

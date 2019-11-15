@@ -1,5 +1,5 @@
 <?php
-namespace moxuandi\tagsinput;
+namespace moxuandi\tagsInput;
 
 use yii\web\AssetBundle;
 
@@ -13,7 +13,7 @@ use yii\web\AssetBundle;
  * @see https://github.com/bootstrap-tagsinput/bootstrap-tagsinput
  * @see http://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/
  */
-class TagsinputAsset extends AssetBundle
+class TagsInputAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/moxuandi/yii2-tagsinput/assets';
     public $css = [

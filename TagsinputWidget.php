@@ -1,5 +1,5 @@
 <?php
-namespace moxuandi\tagsinput;
+namespace moxuandi\tagsInput;
 
 use yii\helpers\Html;
 use yii\helpers\Json;
@@ -15,7 +15,7 @@ use yii\widgets\InputWidget;
  * @see https://github.com/bootstrap-tagsinput/bootstrap-tagsinput
  * @see http://bootstrap-tagsinput.github.io/bootstrap-tagsinput/examples/
  */
-class TagsinputWidget extends InputWidget
+class TagsInputWidget extends InputWidget
 {
     /**
      * @var array the bootstrap-tagsinput 插件的 JQuery 选项.
@@ -30,13 +30,8 @@ class TagsinputWidget extends InputWidget
 
     public function run()
     {
-        self::registerClientScript();
-
-        if($this->hasModel()){
-            echo Html::activeTextInput($this->model, $this->attribute, $this->options);
-        }else{
-            echo Html::textInput($this->name, $this->value, $this->options);
-        }
+        $this->registerClientScript();
+        return $this->hasModel() ? Html::activeTextInput($this->model, $this->attribute, $this->options) : Html::textInput($this->name, $this->value, $this->options);
     }
 
     /**
