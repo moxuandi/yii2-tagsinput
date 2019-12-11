@@ -39,7 +39,7 @@ class TagsInputWidget extends InputWidget
      */
     public function registerClientScript()
     {
-        TagsinputAsset::register($this->view);
+        TagsInputAsset::register($this->view);
         $this->view->registerJs('$("#' . $this->options['id'] . '").tagsinput(' . Json::encode($this->clientOptions) . ');');
     }
 }
